@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: grid;
+}
+img{
+    height: 72.2%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.navlinks{
+    height: 100px;
+    width: 98%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+a{
+    text-decoration: none;
+    top: 30px;
+    left: 20px;
+    position: relative;
+    justify-content: space-evenly;
+    width: 250px;
+    display: inline-flex;
+    margin-left: 30%;
+    background-color: rgb(0, 0, 14);
+    color: rgb(54, 230, 10);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+a:hover{
+    background-color: white;
+}
+li{
+    display: inline-flex;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    font-size: 35px;
+}
+.navlinks li:hover .dropdown{
+    display: inline-block;
+    background-color: black;
+    height: 190px;
+    width: 175px;
+    color: white;    
+    left: 5%;
+    top: 70%;
+    text-align: center; 
+    transform: translateX(536px) translateY(8px);
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.dropdown ul li {  
+    display: block;
+        
+}
+.dropdown li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
